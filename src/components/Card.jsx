@@ -6,7 +6,6 @@ function Card(props) {
     const btnText = props.cardData.btnText;
     const styleClasses = props.cardData.styleClasses;
     const styleClassNames ="bg-gray-100 p-6 rounded-lg shadow-md " + styleClasses;
-
     const btnStyleClass = props.cardData.btnStyleClass;
     const btnClassNames = "inline-block text-white rounded-lg px-4 py-2 " +  btnStyleClass;
 
