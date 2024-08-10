@@ -1,5 +1,4 @@
 function Card(props) {
-    console.log(props);
     const id = props.cardData.id;
     const heading = props.cardData.heading;
     const text = props.cardData.text;
